@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+  body { 
+  display: flex; 
+  flex-direction: column; 
+  min-height: 100vh; 
+  background-color: #f5f2f2; 
+} 
+
+.cabecalho { 
+  background-color: #175ebb; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 15px 25px; 
+} 
+
+.cabecalho-link { 
+  color: #000000; 
+  text-decoration: none; 
+} 
+.principal{
+    flex:1;
+}
+.cartao {
+width: 260px;
+height: 200px;
+}
+
+.cartao-imagem {
+width: 100%;
+}
+
+h1 { 
+  color: #000000; 
+  font-size: 24px; 
+} 
+
+.rodape{ 
+  background-color: #175ebb; 
+  padding: 15px 25px; 
+  color: #000000; 
+
+}
